@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+
+}
+
+nav {
+    background-color: #2F3E4E;
+    height: 90px;
+}
+
+.green {
+    background-color: #57B99D;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.box-star {
+    background-color: chocolate;
+    height: 40px;
+    width: 100px;
+
+}
+
+.first-img {
+    width: 150px;
+}
+
+img {
+    width: 100%;
+}
+
+.container-img {
+    margin-bottom: 15px;
+}
+
+.box-query {
+    background-color: crimson;
+    height: 400px;
+}
+
+.footer-top {
+    background-color: #3F546B;
+    padding: 20px 0;
+}
+
+.footer-bottom {
+    background-color: #2F3E4E;
+    padding: 20px 0;
+}
+
+footer {
+    color: #fff;
+}
