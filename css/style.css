@@ -1,4 +1,4 @@
-/* nav custom */
+/* nav bootstrap custom */
 
 .bg-custom {
     background-color: #2F3E4E;
@@ -12,42 +12,64 @@ nav.bg-custom {
     font-weight: bold;
 }
 
-
-/* ------------------ */
-body {
-    text-align: center;
-
+.navbar {
+    height: 80px;
 }
 
+li.nav-item {
+    font-size: 12px;
+}
 
-.green {
+/* ------------------ */
+
+body {
+    color: #2C3E50;
+}
+
+/* prima sezione jumbotron */
+.section-container {
     background-color: #57B99D;
-    padding: 30px 0;
     color: #fff;
 }
 
-.box-star {
-    background-color: chocolate;
-    height: 40px;
-    width: 100px;
-
+.section-margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-.first-img {
-    width: 150px;
+header {
+    margin-top: 80px;
 }
 
-img {
-    width: 100%;
+header img {
+    width: 200px;
+    margin-bottom: 24px;
 }
+
+
+.star-line{
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+/* .star-line::after {
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+} */
+
+
+/* sezione portfolio */
 
 .container-img {
-    margin-bottom: 15px;
+    margin-bottom: 24px;
 }
 
-.box-query {
-    background-color: crimson;
-    height: 400px;
+.container-img img {
+    width: 100%;
+    border-radius: 12px;
 }
 
 .footer-top {
@@ -62,4 +84,20 @@ img {
 
 footer {
     color: #fff;
+}
+
+
+
+
+
+.box-query {
+    background-color: crimson;
+    height: 400px;
+}
+
+.box-star {
+    background-color: chocolate;
+    height: 40px;
+    width: 100px;
+
 }

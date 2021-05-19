@@ -10,8 +10,9 @@
 </head>
 <body>
     
+    <!-- nav bootstrap custom  -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-custom">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        <a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                        <a class="nav-link active" aria-current="page" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -34,51 +35,57 @@
     </nav>
 
     <!-- creazione primo riquadro -->
-    <header class="container-fluid green">
+    <header class="section-container section-margin">
 
-        <div class="row justify-content-center">
-            <div class="first-img">
-                <img src="https://via.placeholder.com/150" alt="">
-            </div>
-            <h1>Titolo</h1>
-            <div class="box-star"></div>
-            <div>Lorem - Lorem - Lorem</div>
-        </div>
+        <img src="./img/avatar.svg" alt="avater">
+        <h1>START BOOTSTRAP</h1>
+        <div class="star-line">&starf;</div>
+        <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
 
     </header>
 
     <!-- creazione secondo riquadro -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <h2>Titolo</h2>
-            <div class="box-star"></div>
-        </div>
+    <div class="container section-margin">
+        <h2 id="portfolio">PORTFOLIO</h2>
+        <div class="star-line">&starf;</div>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/cabin.png" alt="cabin">
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/cake.png" alt="cake">
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/circus.png" alt="circus">
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/game.png" alt="game">
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/safe.png" alt="safe">
+                </div>
             </div>
-            <div class="col-1             2 col-md-6 col-lg-4 container-img">
-                <img src="https://via.placeholder.com/350x250" alt="">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="container-img">
+                    <img src="./img/submarine.png" alt="submarine">
+                </div>
             </div>
         </div>
     </div>
 
     <!-- creazione terzo riquadro -->
-    <div class="conatiner-fluid green">
+    <div  class="section-container section-margin">
         <div class="row justify-content-center">
-            <h2>Titolo</h2>
+            <h2 id="about">ABOUT</h2>
             <div class="box-star"></div>
         </div>
         <div class="row justify-content-center">
@@ -93,9 +100,9 @@
     </div>
 
     <!-- creazione quarto riquadro  -->
-    <div class="container">
+    <div class="container section-margin">
         <div class="row justify-content-center">
-            <h2>Titolo</h2>
+            <h2 id="contact">CONTACT</h2>
             <div class="box-star col-12"></div>
         </div>
         <div class="row justify-content-center">
