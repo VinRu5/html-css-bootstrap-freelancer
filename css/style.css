@@ -135,7 +135,7 @@ form input, form textarea {
 
 form ::placeholder {
     font-size: 20px;
-    color: #2C3E50;
+    color: #000;
 }
 
 .btn-success {
@@ -170,9 +170,17 @@ footer {
 
 .footer-item {
     margin-bottom: 24px;
+    font-size: 14px;
 }
 
 .start-b {
     color: #57B99D;
 }
 
+.title-footer {
+    margin-bottom: 12px;
+}
+
+.footer-bottom .footer-item {
+    font-size: 10px;
+}
