@@ -47,17 +47,51 @@ header img {
 }
 
 
-.star-line{
+[class^="star-line-"] {
     font-size: 30px;
     margin-bottom: 24px;
 }
 
-/* .star-line::after {
-    width: 50px;
+.star-line-w::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
     height: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
+    vertical-align: middle;
     background-color: #fff;
-} */
+}
+
+.star-line-w::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.star-line-b::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    vertical-align: middle;
+    background-color: #2C3E50;
+}
+
+.star-line-b::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    vertical-align: middle;
+    background-color: #2C3E50;
+}
+
 
 
 /* sezione portfolio */
@@ -84,6 +118,10 @@ header img {
 
 button.btn-outline-download {
     font-size: 20px;
+}
+
+.button-conteiner {
+    margin: 0 auto;
 }
 
 /* sezione contact */
@@ -137,3 +175,4 @@ footer {
 .start-b {
     color: #57B99D;
 }
+
