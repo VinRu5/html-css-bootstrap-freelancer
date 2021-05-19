@@ -20,6 +20,10 @@ li.nav-item {
     font-size: 12px;
 }
 
+.navbar-dark .navbar-toggler {
+    border-color: #eee;
+}
+
 /* ------------------ */
 
 body {
@@ -120,7 +124,7 @@ button.btn-outline-download {
     font-size: 20px;
 }
 
-.button-conteiner {
+.button-container {
     margin: 0 auto;
 }
 
