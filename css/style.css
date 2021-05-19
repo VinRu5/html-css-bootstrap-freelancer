@@ -35,7 +35,6 @@ body {
 .section-margin {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
 }
 
 header {
@@ -72,6 +71,23 @@ header img {
     border-radius: 12px;
 }
 
+/* sezione about  */
+.text-about {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.btn-outline-download {
+    color: #fff;
+    border-color: #fff;
+}
+
+button.btn-outline-download {
+    font-size: 20px;
+}
+
+
+
 .footer-top {
     background-color: #3F546B;
     padding: 20px 0;
@@ -93,11 +109,4 @@ footer {
 .box-query {
     background-color: crimson;
     height: 400px;
-}
-
-.box-star {
-    background-color: chocolate;
-    height: 40px;
-    width: 100px;
-
 }
