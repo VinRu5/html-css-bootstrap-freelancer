@@ -1,12 +1,24 @@
+/* nav custom */
+
+.bg-custom {
+    background-color: #2F3E4E;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+nav.bg-custom {
+    font-weight: bold;
+}
+
+
+/* ------------------ */
 body {
     text-align: center;
 
 }
 
-nav {
-    background-color: #2F3E4E;
-    height: 90px;
-}
 
 .green {
     background-color: #57B99D;
